@@ -1,0 +1,141 @@
+body {
+    margin:auto;
+    width: 25%;
+    padding: 5px;
+    height: 900px;
+}
+
+.header-container {
+    background-color:white;
+    padding: 5px;
+    max-width: 650px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    background-color:white;
+    padding: 5px;
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.matrix {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 650px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.header-box {
+    background-color:aqua;
+    border: 2px solid white;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+    display:flex;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.box1 {
+    background-color:thistle;
+    height: 300px;
+    width: 270px;
+}
+
+.box2 {
+    background-color: rgb(127, 175, 39);
+    display:flex;
+    height: 360px;
+    width: 270px;
+}
+
+.box3 {
+    background-color: rgb(207, 174, 11);
+    display:flex;
+    height: 440px;
+    width: 352px;
+}
+
+.box4 {
+    background-color:dimgrey;
+    display:flex;
+    height: 220px;
+    width: 352px;
+}
+
+.item{
+    border: 2px solid white;
+    height: 120px;
+    text-align: center;
+    color: white;
+    font-size:42px;
+    display:flex;
+    justify-content: center;
+    line-height: 45px;
+}
+
+.item1{
+    background-color:mediumseagreen;
+    width: 400px;
+}
+
+.item2{
+    background-color:rgb(237, 184, 192);
+    width: 222px;
+}
+
+.footer-box {
+    background-color: orange;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+    display:flex;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+}
+.warning-text1 {
+    font-size: 16px;
+    color:white;
+    position:absolute;
+    margin-top: 45px;
+}
+
+.warning-text2 {
+    font-size: 16px;
+    color:white;
+    position:absolute;
+    margin-top: 66px;
+}
