@@ -1,5 +1,3 @@
-#Write a python function that finds the duplicate items in a list.
-
 def find_duplicates(nums: list) -> list:
     values = [] # List Created to Store Duplicates
 

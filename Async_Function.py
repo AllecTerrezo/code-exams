@@ -3,7 +3,7 @@ import asyncio
 async def async_function(items: list) -> list:
     
     for value in items:
-        # A cada iteração o index do value é buscado e a quantidade de segundos crescerá exponencialmente na base 2
+        # With each iteration the value index is fetched and the number of seconds will grow exponentially in base 2
         seconds = 2 ** items.index(value)
         # Delay adicionado a cada iteração do loop
         await asyncio.sleep(seconds)
