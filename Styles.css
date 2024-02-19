@@ -1,9 +1,13 @@
+/* define page body*/
+
 body {
     margin:auto;
     width: 25%;
     padding: 5px;
     height: 900px;
 }
+
+/* container define the useful space for header and footer box*/
 
 .header-container {
     background-color:white;
@@ -23,6 +27,8 @@ body {
     align-items: flex-end;
 }
 
+/* matrix, column and row define the space projection for each box in space*/
+
 .matrix {
     display: flex;
     justify-content: center;
@@ -40,6 +46,8 @@ body {
     justify-content: center;
 }
 
+/* header-box is the element defined in the begining of the page using flex*/
+
 .header-box {
     background-color:aqua;
     border: 2px solid white;
@@ -55,6 +63,7 @@ body {
     align-items: center;
 }
 
+/* box is the element of the matrix defined by columns using flex*/
 .box {
     border: 2px solid white;
     text-align: center;
@@ -64,6 +73,8 @@ body {
     justify-content: center;
     line-height: 1.5;
 }
+
+/* box1, box2, box3 and box4 define the characteristics of each box*/
 
 .box1 {
     background-color:thistle;
@@ -92,6 +103,8 @@ body {
     width: 352px;
 }
 
+/* item is the element of the row defined using flex*/
+
 .item{
     border: 2px solid white;
     height: 120px;
@@ -103,6 +116,8 @@ body {
     line-height: 45px;
 }
 
+/* item1 and item2 define the characteristics of each box*/
+
 .item1{
     background-color:mediumseagreen;
     width: 400px;
@@ -112,6 +127,8 @@ body {
     background-color:rgb(237, 184, 192);
     width: 222px;
 }
+
+/* footer-box is the element defined in the end of the page using flex*/
 
 .footer-box {
     background-color: orange;
@@ -126,6 +143,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Text to be inserted in box 3*/
+
 .warning-text1 {
     font-size: 16px;
     color:white;
